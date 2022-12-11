@@ -1,0 +1,7 @@
+sisend1 = input("Palun sisestage eesnimi: ")
+print(type(sisend1))
+sisend2 = input("Palun sisestage perekonnanimi: ")
+print(type(sisend2))
+sisend1 = sisend1.lower()
+sisend2 = sisend2.lower()
+print(sisend1+ str(".") + sisend2)

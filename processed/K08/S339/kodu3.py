@@ -1,0 +1,1 @@
+#pole õrna aimugi, kuidas seda yl. lahendada 

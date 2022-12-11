@@ -1,0 +1,12 @@
+esimene=input("Sisesta esimene failinimi:")
+teine=input("Sisesta teine failinimi:")
+file1=open(esimene,"r")
+data=file1.read()
+k=data.count("Hello")
+file2=open(teine,"w")
+asendus=data.replace("Hello","Tere")
+file2.write(asendus)
+file1.close()
+file2.close()
+
+print ("Tehti",k,"asendamist")

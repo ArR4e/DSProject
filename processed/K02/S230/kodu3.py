@@ -1,0 +1,5 @@
+eesn=str(input("Sisestage oma eesnimi: "))
+peren=str(input("Sisestage ome perekonnanimi: "))
+eesn=str.lower(eesn)
+peren=str.lower(peren)
+print(eesn,peren, sep=".")

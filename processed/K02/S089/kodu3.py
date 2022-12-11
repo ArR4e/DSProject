@@ -1,0 +1,12 @@
+#kasutajanimi
+eesnimi = input("Sisestage eesnimi: ")
+perenimi = input("Sisestage perenimi: ")
+eesnimi1 = eesnimi.lower().replace('ä', 'a',)
+eesnimi2 = eesnimi1.replace('ö', 'o')
+eesnimi3 = eesnimi2.replace('õ', 'o')
+eesnimi4 = eesnimi3.replace('ü', 'u')
+perenimi1 = perenimi.lower().replace('ä', 'a',)
+perenimi2 = perenimi1.replace('ö', 'o')
+perenimi3 = perenimi2.replace('õ', 'o')
+perenimi4 = perenimi3.replace('ü', 'u')
+print(eesnimi4 + "." + perenimi4)

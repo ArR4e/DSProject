@@ -1,0 +1,5 @@
+olemasolev_tekstifail = input ("Sisesta lähtefaili nimi ")
+uus_fail = input ("Sisesta uue faili nimi ")
+open (olemasolev_tekstifail)
+str.replace ("Hello", "Tere")
+print ("Hello".count)

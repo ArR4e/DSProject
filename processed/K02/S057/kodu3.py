@@ -1,0 +1,5 @@
+enimi = input("Kasutajanime loomiseks sisestage oma eesnimi... : ")
+pknimi = input("... ning sisestage perekonnanimi: ")
+enimi1 = enimi.replace("ö","o").replace("ä","a").replace("ü","u").replace("õ","o")
+pknimi1 = pknimi.replace("ö","o").replace("ä","a").replace("ü","u").replace("õ","o")
+print(enimi1.lower() + "." + pknimi1.lower())

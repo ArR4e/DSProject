@@ -1,0 +1,16 @@
+esimene = input("Sisesta olemasoleva faili nimi (koos .txt): ")
+teine = input("Sisesta uue faili nimi (koos .txt): ")
+
+e = open(esimene, "r")
+e_sisu = e.read()
+vana_sisu = e_sisu.count('Tere')
+uus_sisu = e_sisu.replace('Hello', 'Tere')
+t = open(teine, "w")
+t.write(uus_sisu)
+t.close()
+t = open(teine, "r")
+arv = t.read().count('Tere')
+asenduste_arv = arv-vana_sisu
+e.close()
+t.close()
+print("Tehti",asenduste_arv,"asendamist.")

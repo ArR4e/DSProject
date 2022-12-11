@@ -1,0 +1,1 @@
+fail = open('kinganumbrid.txt')

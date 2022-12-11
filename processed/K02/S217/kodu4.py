@@ -1,0 +1,7 @@
+lfile = input("Sisesta lähtefaili nimi: ")
+sfile = input("Sisesta sihtfaili nimi: ")
+file1 = open(lfile)
+file2 = open(sfile, "w+")
+file2.write(file1.read().replace("Hello", "Tere"))
+file1.close()
+file2.close()

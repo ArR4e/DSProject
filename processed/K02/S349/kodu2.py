@@ -1,0 +1,6 @@
+liinipikkus = input("Palun sisesta liini pikkus meetritäpsusega: ")
+arv1 = int(liinipikkus)
+maksimaalkaugus = input("Palun sisesta kõrvuti asetsevate postide maksimaalkaugus meetritäpsusega: ")
+arv2 = int(maksimaalkaugus)
+postid = str(arv1 / arv2)
+print("Liini ehitamiseks on vaja minimaalselt " + postid + " posti.")

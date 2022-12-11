@@ -1,0 +1,63 @@
+from pykkar import*
+create_world("""
+#############
+#     >     #
+#           #
+#           #
+#           #
+#           #
+#           #
+#############
+""")
+
+right()
+step()
+step()
+step()
+step()
+step()
+right()
+step()
+step()
+step()
+step()
+step()
+paint()
+right()
+step()
+step()
+step()
+step()
+step()
+paint()
+right()
+step()
+step()
+step()
+step()
+step()
+step()
+step()
+step()
+step()
+step()
+paint()
+right()
+step()
+step()
+step()
+step()
+step()
+paint()
+right()
+step()
+step()
+step()
+step()
+step()
+right()
+step()
+step()
+step()
+right()
+right()

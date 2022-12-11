@@ -1,0 +1,1 @@
+# Pagarikoja kassaaparaat

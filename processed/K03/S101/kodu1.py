@@ -1,0 +1,15 @@
+aastatulu=float(input("Sisesta aastatulu:"))
+maksuvaba_tulu=0
+if aastatulu<=6000:
+    maksuvaba_tulu=aastatulu
+    
+if aastatulu>6000 and aastatulu<=14400:
+    maksuvaba_tulu = 6000
+if aastatulu>14400 and aastatulu<=25200:
+    maksuvaba_tulu=6000-6000/10800*(aastatulu-14400)
+if aastatulu >25200:
+    maksuvaba_tulu=0
+    
+print("Teie maksuvaba tulu on:", round(maksuvaba_tulu,2),"eurot.")
+    
+    

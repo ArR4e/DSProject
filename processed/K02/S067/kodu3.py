@@ -1,0 +1,5 @@
+x = input('Sisesta eesnimi:')
+y = input('Sisesta perekonnanimi:')
+a = x.lower().replace('ä', 'a').replace('ö', 'o',).replace('ü', 'u').replace('õ', 'o')
+b = y.lower().replace('ä', 'a').replace('ö', 'o',).replace('ü', 'u').replace('õ', 'o')
+print(a.lower() + '.' + b.lower())

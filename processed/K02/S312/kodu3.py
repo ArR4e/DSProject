@@ -1,0 +1,5 @@
+ees = input('Sisesta eesnimi: ')
+pere = input('Sisesta perekonnanimi: ')
+eesuus = ees.replace('õ','o').replace('ä','a').replace('ö','o').replace('ü','u')
+pereuus = pere.replace('õ','o').replace('ä','a').replace('ö','o').replace('ü','u')
+print(eesuus.lower() + '.' + pereuus.lower())

@@ -1,0 +1,11 @@
+Lähtefail = input('Lähtefaili nimi: ')
+Sihtfail = input('Sihtfaili nimi: ')
+f = open(Lähtefail)
+f1 = open(Sihtfail, 'w')
+for line in f:
+    f1.write(line.replace('Hello', 'Tere'))
+f.close()
+f1.close()
+f = open(Lähtefail)
+asendamisi = f.read().count('Hello')
+print('Tehti ' + str(asendamisi) + ' asendamist.')

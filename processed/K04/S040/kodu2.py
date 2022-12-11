@@ -1,0 +1,10 @@
+a = int(input("Esimese keha kiirus vaatleja suhtes on: "))
+b = int(input("Teise keha kiirus esimese keha suhtes on: "))
+c = int(input("Kolmanda keha kiirus teise keha suhtes on: "))
+d = int(input("Neljanda keha kiirus kolmanda keha suhtes on: "))
+z = int(299792.458)
+m = (a + b)/(1 + (a * b / z**2))
+n = (m + c)/(1 + (m * c / z**2))
+o = (n + d)/(1 + (n * d / z**2))
+
+print("Kiiruste summa on " + str(o) + "km/s")

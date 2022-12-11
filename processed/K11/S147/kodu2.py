@@ -1,0 +1,1 @@
+def transponeeriK(maatriks): return [[maatriks[j][i] for j in range(len(maatriks)-1,-1,-1)] for i in range(len(maatriks[0])-1,-1,-1)]

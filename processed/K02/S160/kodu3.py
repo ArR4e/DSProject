@@ -1,0 +1,6 @@
+print("Tere! Siin saate luua endale kasutajanime tehes järgmist:")
+name = input("Palun sisestage oma nimi: ") 
+last_name = input ("Palun sisestage oma perekonna nimi")
+final_name= name.lower()
+final_last_name= last_name.lower()
+print(final_name + "." + final_last_name)

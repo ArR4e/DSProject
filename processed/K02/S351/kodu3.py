@@ -1,0 +1,5 @@
+eesnimi=str(input("Sisestage enda eesnimi: "))
+perekonnanimi=str(input("Sisestage enda perekonnanimi: "))
+eesnimi=eesnimi.lower()
+perekonnanimi=perekonnanimi.lower()
+print(str(eesnimi)+"."+(perekonnanimi))

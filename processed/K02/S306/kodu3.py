@@ -1,0 +1,5 @@
+ees=input("Sisesta oma eesnimi: ")
+pere=input("Sisesta oma perekonnanimi: ")
+ees=ees.lower()
+pere=pere.lower()
+print("Sinu kasutajanimi on", ees+"."+pere+".")

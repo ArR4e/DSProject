@@ -1,0 +1,40 @@
+from pykkar import *
+
+           
+
+create_world("""
+########
+#      #
+#   >  #
+#      #
+#      #
+#      #
+########
+""")
+
+
+
+while not is_wall():
+    step()
+if is_wall() == True:
+    right()
+while not is_wall():
+    step()
+if is_wall() == True:
+    paint()
+    right()
+while not is_wall():
+    step()
+if is_wall() == True:
+    paint()
+    right()
+while not is_wall():
+    step()
+if is_wall() == True:
+    paint()
+    right()
+while not is_wall():
+    step()
+if is_wall() == True:
+    paint()
+    right()

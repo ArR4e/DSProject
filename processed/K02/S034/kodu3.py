@@ -1,0 +1,3 @@
+eesnimi = (input("Palun sisesta eesnimi: ")).replace("õ", "o").replace("ö", "o").replace("ü", "u").replace("ä", "a").replace("Õ", "o").replace("Ö", "o").replace("Ü", "u").replace("Ä", "a").lower()
+perenimi = (input("Palun sisesta perekonnanimi: ")).replace("õ", "o").replace("ö", "o").replace("ü", "u").replace("ä", "a").replace("Õ", "o").replace("Ö", "o").replace("Ü", "u").replace("Ä", "a").lower()
+print(eesnimi + "." + perenimi)

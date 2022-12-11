@@ -1,0 +1,1 @@
+#kahjuks, ei oska ülesandeid lahendada, homme tunnis kindlasti kuulan põhjalikult

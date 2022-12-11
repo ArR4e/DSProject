@@ -1,0 +1,8 @@
+a = str(input("Palun sisesta oma eesnimi:"))
+b = str(input("Palun sisesta oma perekonnanimi:"))
+vastus = (a + "." + b).lower()
+vastus = vastus.replace("ö", "o")
+vastus = vastus.replace("ä", "a")
+vastus = vastus.replace("õ", "o")
+vastus = vastus.replace("ü", "u")
+print(vastus)

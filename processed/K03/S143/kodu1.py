@@ -1,0 +1,2 @@
+s = float(input("Sisesta aastatulu: "))
+print("Maksuvaba tulu on %s eurot." %(str(round((s if s <= 6000 else (6000 if s > 6000 and s <= 14400 else ((6000-6000/10800*(s-14400)) if s > 14400 and s <= 25200 else 0))),2))))

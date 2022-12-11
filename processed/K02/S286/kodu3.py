@@ -1,0 +1,11 @@
+
+eesnimi = input("Sisesta oma eesnimi siia: ")
+perekonnanimi = input("Sisesta oma perekonnanimi siia: ")
+eesnimi = str(eesnimi.lower())
+perekonnanimi = str(perekonnanimi.lower())
+taisnimi = (eesnimi + "." + perekonnanimi)
+taisnimi = taisnimi.replace("õ","o")
+taisnimi = taisnimi.replace("ü","u")
+taisnimi = taisnimi.replace("ä","a")
+taisnimi = taisnimi.replace("ö","o")
+print(taisnimi)

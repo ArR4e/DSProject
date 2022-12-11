@@ -1,0 +1,12 @@
+#failinimi.txt 
+a = input("Sisesta lähtefaili nimi:  ")
+b = input("Sisesta sihtfaili nimi:  ")
+a = open(a)
+sisu = a.read()
+tered = sisu.replace("Hello", "Tere")
+tere = 'Asendusi:', sisu.count("Hello")
+print(tere)
+a.close()
+b = open(b, "w")
+b.write(tered)
+b.close()

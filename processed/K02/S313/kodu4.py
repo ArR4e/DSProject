@@ -1,0 +1,12 @@
+afail = input("Lähtefaili nimi: ")
+lfail = input("Sihtfaili nimi: ")
+
+f = open(afail)
+faili_sisu = f.read()
+asendused = faili_sisu.count("Hello")
+f.close()
+uus_tekst = (faili_sisu.replace("Hello", "Tere"))
+fail = open(lfail, "w")
+fail.write(uus_tekst)
+fail.close()
+print("Tehti " + str(asendused) + " asendamist.")

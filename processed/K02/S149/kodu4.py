@@ -1,0 +1,11 @@
+fread = input("Lähtefaili nimi: ")
+fwrite = input("Sihtfaili nimin: ")
+
+f1 = open(fread)
+f2 = open(fwrite, "w+")
+f2.write(f1.read().replace("Hello", "Tere"))
+f1.close()
+f2.close()
+f1 = open(fread)
+print(f1.read().count("Hello"))
+f1.close()

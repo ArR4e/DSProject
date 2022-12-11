@@ -1,0 +1,6 @@
+eesnimi = input("Sisestage enda eesnimi: ")
+perenimi = input("Sisestage enda perenimi: ")
+muudetud_eesnimi = eesnimi.replace("Õ", "o").replace("õ", "o").replace("Ö", "o").replace("ö", "o").replace("Ä", "a").replace("ä", "a").replace("Ü", "u").replace("ü", "u")
+muudetud_perenimi = perenimi.replace("Õ", "o").replace("õ", "o").replace("Ö", "o").replace("ö", "o").replace("Ä", "a").replace("ä", "a").replace("Ü", "u").replace("ü", "u")
+kasutajanimi = muudetud_eesnimi[0].upper() + muudetud_eesnimi[1:].lower()+ "." + muudetud_perenimi[0].upper() + muudetud_perenimi[1:].lower()
+print(kasutajanimi)

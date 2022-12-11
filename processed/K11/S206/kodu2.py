@@ -1,0 +1,1 @@
+transponeeriK = lambda arr: [[arr[len(arr)-1-j][len(arr[0])-1-i] for j in range(len(arr))] for i in range(len(arr[0]))]

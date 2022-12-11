@@ -1,0 +1,12 @@
+inglise = input("Sisesta faili nimi, mida tahad tõlkida.")
+eesti = input("Sisesta faili nimi, kuhu tahad tõlkida.")
+ing = open(inglise, "r")
+a=0
+fail = ing.read()
+a = fail.count('Hello')
+failest = fail.replace('Hello', 'Tere')
+ing.close()
+est = open(eesti,"w")
+est.write(failest)
+est.close()
+print("Vahetus toimus", a, "korda.")

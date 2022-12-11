@@ -1,0 +1,10 @@
+nimi1 = input('Sisesta input failinimi')
+nimi2 = input('Sisesta output failinimi')
+with open(nimi1,'r') as file:
+    sisu = file.read()
+fail2 = open(nimi2,'a+')
+x = sisu.count('Hello')
+sisu = sisu.replace('Hello', 'Tere')
+fail2.write(sisu)
+print(x)
+fail2.close()

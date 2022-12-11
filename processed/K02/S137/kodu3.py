@@ -1,0 +1,5 @@
+eesnimi = input("Sisesta palun enda eesnimi: ")
+perenimi = input("Sisesta palun enda perekonnanimi :")
+eesnimi = eesnimi.lower()
+perenimi = perenimi.lower()
+print(eesnimi + '.' + perenimi)

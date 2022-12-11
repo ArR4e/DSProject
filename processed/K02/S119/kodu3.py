@@ -1,0 +1,7 @@
+eesnimi = input("Palun sisesta oma nimi: ")
+perekonnanimi = input("Palun sisesta oma perekonnanimi: ")
+a = eesnimi.lower()
+b = perekonnanimi.lower()
+c = (a + "." + b)
+d = c.replace("õ" , "o").replace("ö" , "o").replace("ä" , "a").replace("ü" , "u")
+print(d)

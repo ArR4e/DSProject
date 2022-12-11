@@ -1,0 +1,7 @@
+lähtefail = open(input("Lähtefaili nimi: "))
+lähtetekst = lähtefail.read()
+sihtfail = open(input("Sihtfaili nimi: "), "w")
+print("Tehti", lähtetekst.count("Hello"), "asendamist.")
+sihtfail.write(lähtetekst.replace("Hello", "Tere"))
+lähtefail.close()
+sihtfail.close()

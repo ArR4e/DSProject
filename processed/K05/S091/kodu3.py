@@ -1,0 +1,1 @@
+moos = lambda s, v, k : s + k-s*5 if k-5*s > 0 and (k-s*5) <= v else s if k%5 == 0 and k/5 <= s else k if s*5<k and k <= v else -1

@@ -1,0 +1,12 @@
+import string
+eesnimi = (input("Eesnimi: "))
+perenimi = (input("Perenimi: "))
+eesnimi = eesnimi.replace("õ", "o")
+perenimi = perenimi.replace("õ", "o")
+eesnimi = eesnimi.replace("ä", "a")
+perenimi = perenimi.replace("ä", "a")
+eesnimi = eesnimi.replace("ö", "o")
+perenimi = perenimi.replace("ö", "o")
+eesnimi = eesnimi.replace("ü", "u")
+perenimi = perenimi.replace("ü", "u")
+print((eesnimi).lower() + "." + (perenimi).lower())

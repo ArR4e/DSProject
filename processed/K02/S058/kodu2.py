@@ -1,0 +1,6 @@
+liini_pikkus_tekstina = input('Sisesta liini pikkus meetrites: ')
+liini_pikkus = int(liini_pikkus_tekstina)
+kõrvutiasetsevate_postide_kaugus_tekstina = input('Sisesta kõrvutiasetsevate postide kaugus meetrites: ')
+kõrvutiasetsevate_postide_kaugus = int(kõrvutiasetsevate_postide_kaugus_tekstina)
+postide_arv = int((liini_pikkus/kõrvutiasetsevate_postide_kaugus) + 2)
+print(postide_arv)

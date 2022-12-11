@@ -1,0 +1,6 @@
+f = open('kinganumbrid.txt')
+t_1 = float(input(f.readline(1)))
+t_2 = float(input(f.readline(2)))
+t_3 = float(input(f.readline(3)))
+f_4 = float(input(f.readline(4)))
+print(f_4)

@@ -1,0 +1,12 @@
+fail1 = input("Lähtefaili nimi: ")
+fail2 = input("Sihtfaili nimi: ")
+
+f = open(fail1, "r")
+f2 = open(fail2, "w")
+tekst = f.read()
+loendur = tekst.count("Hello")
+uus_tekst = tekst.replace("Hello", "Tere")
+f2.write(uus_tekst)
+print("tehti " + str(loendur) + " asendamist.")
+f.close()
+f2.close()

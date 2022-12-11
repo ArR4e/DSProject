@@ -1,0 +1,10 @@
+failinimi1=input("Sisesta input failinimi: ")
+failinimi2=input("Sisesta output failinimi: ")
+with open(failinimi1, "r") as file:
+    tekst = file.read()
+file2 = open(failinimi2, "a+")
+a=tekst.count("Hello")
+tekst = tekst.replace("Hello", "Tere")
+file2.write(tekst)
+print(a)
+file2.close()

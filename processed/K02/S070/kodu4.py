@@ -1,0 +1,12 @@
+lähtef = str(input("Lähtefaili nimi: "))
+sihtf = str(input("Sihtfaili nimi: "))
+f = open(str(lähtef), "r", encoding='UTF-8')
+b = open(str(sihtf), "w", encoding='UTF-8')
+b.write(f.read().replace('Hello', 'Tere'))
+f.close()
+b.close()
+f = open(str(lähtef), "r", encoding='UTF-8')
+nr = f.read().count('Hello')
+print(nr)
+f.close()
+
