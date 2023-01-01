@@ -222,13 +222,4 @@ def main():
                 data.to_csv(f, index_label="idx")
 
 
-#main()
-a = """
-def mains():
-    a >= 2
-"""
-b = ast.parse(a)
-t = SubmissionTransformer()
-t.visit(b)
-b = t.get_functions()['mains']
-print(ast.dump(b, indent=2))
+main()
