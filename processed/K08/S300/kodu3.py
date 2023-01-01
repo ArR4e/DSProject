@@ -1,2 +1,0 @@
-def töötleKäsk(tähis, järjend):
-    

@@ -1,1 +1,0 @@
-et saakins üles laadida kodu3.py
